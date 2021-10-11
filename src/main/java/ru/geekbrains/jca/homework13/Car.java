@@ -10,7 +10,6 @@ public class Car implements Runnable {
     private static boolean winnerFound;
     private CyclicBarrier barrier;
     private CountDownLatch cdl;
-
     public String getName() {
         return name;
     }
